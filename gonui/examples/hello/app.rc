@@ -1,0 +1,3 @@
+// Ресурсы Windows: манифест (RT_MANIFEST = 24, id 1). make win собирает из него
+// rsrc_windows_amd64.syso для gc и rsrc.o для TinyGo (docs/driver-win32.md, §8).
+1 24 "app.manifest"

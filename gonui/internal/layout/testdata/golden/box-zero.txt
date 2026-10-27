@@ -1,0 +1,13 @@
+# снято с GTK тестом TestLayoutGTK (make golden); руками не править
+window 236x96 min=236x96 nat=236x96
+0 vbox min=212x72 nat=212x72 out=12,12,212,72
+0.0 hbox min=212x20 nat=212x20 out=12,12,212,20
+0.0.0 fixed min=100x20 nat=100x20 out=12,12,100,20
+0.0.1 stretch min=0x0 nat=0x0 out=118,12,1,20
+0.0.2 fixed min=100x20 nat=100x20 out=124,12,100,20
+0.1 hbox min=212x20 nat=212x20 out=12,38,212,20
+0.1.0 label min=0x17 nat=0x17 out=12,38,1,20
+0.1.1 fixed min=212x20 nat=212x20 out=12,38,212,20
+0.2 vbox min=50x20 nat=50x20 out=12,64,212,20
+0.2.0 stretch min=0x0 nat=0x0 out=12,64,212,1
+0.2.1 fixed min=50x20 nat=50x20 out=12,64,212,20

@@ -1,0 +1,21 @@
+# Глубокая вложенность, отступы контейнеров, SetMinSize у контейнеров.
+window 420x320 padding=0
+hbox spacing=0
+  vbox spacing=3 padding=6 min=120x-1
+    fixed 50x20
+    frame "Вложенная"
+      grid colgap=2 rowgap=2 padding=3
+        fixed @0,0 20x20
+        fixed @1,1 20x20
+        vbox @0,2 span=2x1
+          fixed 30x10
+          fixed 30x10 align=end,fill
+  vbox expand spacing=6 padding=2
+    hbox min=-1x50
+      fixed expand 10x10 align=fill,center
+      vbox spacing=1
+        fixed 15x15
+        fixed 15x15
+    grid expandcol=0 expandrow=0 min=200x100
+      fixed @0,0 10x10
+      fixed @1,1 10x10

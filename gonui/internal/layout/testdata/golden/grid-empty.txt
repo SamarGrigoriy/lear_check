@@ -1,0 +1,10 @@
+# снято с GTK тестом TestLayoutGTK (make golden); руками не править
+window 300x260 min=164x130 nat=164x130
+0 grid min=140x106 nat=140x106 out=12,12,276,236
+0.0 fixed min=40x20 nat=40x20 out=12,12,40,20
+0.1 fixed min=40x20 nat=40x20 out=62,12,40,20
+0.2 fixed hidden
+0.3 fixed min=40x50 nat=40x50 out=12,40,40,50
+0.4 fixed min=40x20 nat=40x20 out=62,59,40,31
+0.5 fixed min=40x20 nat=40x20 out=112,98,176,150
+0.6 fixed hidden

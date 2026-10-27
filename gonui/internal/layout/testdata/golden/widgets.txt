@@ -1,0 +1,22 @@
+# снято с GTK тестом TestLayoutGTK (make golden); руками не править
+window 480x400 min=373x315 nat=373x315
+0 vbox min=349x291 nat=349x291 out=12,12,456,376
+0.0 label min=124x17 nat=124x17 out=12,12,456,17
+0.1 hbox min=349x34 nat=349x34 out=12,35,456,34
+0.1.0 button min=85x34 nat=85x34 out=12,35,85,34
+0.1.1 button min=168x34 nat=168x34 out=103,35,275,34
+0.1.2 check min=84x22 nat=84x22 out=384,35,84,34
+0.2 hbox min=310x34 nat=310x34 out=12,75,456,34
+0.2.0 entry min=168x34 nat=168x34 out=12,75,168,34
+0.2.1 combo min=136x34 nat=136x34 out=186,75,136,34
+0.3 slider min=34x45 nat=34x45 out=12,115,456,45
+0.4 progress min=152x4 nat=152x4 out=12,166,456,4
+0.5 separator min=1x1 nat=1x1 out=12,176,456,1
+0.6 hbox min=105x80 nat=105x80 out=12,183,456,80
+0.6.0 textview min=46x80 nat=46x80 out=12,183,46,80
+0.6.1 vseparator min=1x1 nat=1x1 out=64,183,1,80
+0.6.2 textview min=46x46 nat=46x46 out=71,183,397,80
+0.7 hbox min=189x34 nat=189x34 out=12,269,456,34
+0.7.0 stretch min=0x0 nat=0x0 out=12,269,267,34
+0.7.1 button min=87x34 nat=87x34 out=285,269,87,34
+0.7.2 button min=90x34 nat=90x34 out=378,269,90,34

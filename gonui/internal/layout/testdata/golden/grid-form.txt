@@ -1,0 +1,12 @@
+# снято с GTK тестом TestLayoutGTK (make golden); руками не править
+window 420x240 min=347x189 nat=459x189
+0 grid min=323x165 nat=435x165 out=12,12,396,216
+0.0 label min=38x17 nat=38x17 out=12,12,68,34
+0.1 combo min=128x34 nat=128x34 out=86,12,322,34
+0.2 label min=68x17 nat=68x17 out=12,52,68,34
+0.3 entry min=168x34 nat=168x34 out=86,52,241,34
+0.4 label min=25x17 nat=25x17 out=333,52,75,34
+0.5 label min=41x17 nat=41x17 out=12,92,68,17
+0.6 label min=13x17 nat=361x17 out=86,92,322,17
+0.7 check min=124x22 nat=124x22 out=86,115,322,22
+0.8 button min=75x34 nat=75x34 out=333,143,75,34

@@ -1,0 +1,20 @@
+# снято с GTK тестом TestLayoutGTK (make golden); руками не править
+window 460x330 min=392x196 nat=626x550
+0 vbox min=368x172 nat=602x526 out=12,12,436,306
+0.0 hbox min=368x49 nat=368x49 out=12,12,436,49
+0.0.0 frame min=82x49 nat=82x49 inset=1,18,1,1 floor=42x19 out=12,12,82,49
+0.0.0.0 fixed min=80x30 nat=80x30 out=13,30,80,30
+0.0.1 frame min=234x39 nat=234x39 inset=1,18,1,1 floor=234x19 out=100,12,234,49
+0.0.1.0 fixed min=40x20 nat=40x20 out=101,30,232,30
+0.0.2 frame min=40x36 nat=40x36 inset=1,1,1,1 floor=2x2 out=340,12,40,49
+0.0.2.0 vbox min=38x34 nat=38x34 out=345,17,30,39
+0.0.2.0.0 fixed min=30x10 nat=30x10 out=345,17,30,10
+0.0.2.0.1 fixed min=30x10 nat=30x10 out=345,33,30,10
+0.1 frame min=74x65 nat=602x419 inset=1,18,1,1 floor=74x19 out=12,67,436,199
+0.1.0 scroll min=46x46 nat=600x400 inset=0,0,0,0 floor=46x46 out=13,85,434,180
+0.1.0.0 fixed min=600x400 nat=600x400 out=13,85,600,400
+0.2 hbox min=152x46 nat=216x46 out=12,272,436,46
+0.2.0 scroll min=46x46 nat=110x46 inset=0,0,0,0 floor=46x46 out=12,272,110,46
+0.2.0.0 label min=110x17 nat=110x17 out=12,272,110,46
+0.2.1 scroll min=100x46 nat=100x46 inset=0,0,0,0 floor=100x46 out=128,272,100,46
+0.2.1.0 fixed min=50x25 nat=50x25 out=128,272,100,46
