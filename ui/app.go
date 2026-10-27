@@ -24,7 +24,16 @@ type App struct {
 	today time.Time // «сегодня» на момент запуска; перезапуск обновляет
 
 	// ссылки на страницы — чтобы один экран мог попросить другой перерисоваться
-	pageToday *pageToday
+	pageToday   *pageToday
+	pagePlan    *pagePlan
+	pageJournal *pageJournal
+	pageAch     *pageAchievements
+	pageCal     *pageCalendar
+	pageQuiz    *pageQuiz
+	pageStats   *pageStats
+	pageSet     *pageSettings
+
+	journalTab int // номер вкладки «Журнал» — для перехода из «Плана»
 }
 
 // Save пишет базу на диск и показывает ошибку диалогом.
@@ -47,23 +56,48 @@ func (a *App) RefreshAll() {
 	if a.pageToday != nil {
 		a.pageToday.refresh()
 	}
+	if a.pagePlan != nil {
+		a.pagePlan.refresh()
+	}
+	if a.pageJournal != nil {
+		a.pageJournal.refresh()
+	}
+	if a.pageAch != nil {
+		a.pageAch.refresh()
+	}
+	if a.pageCal != nil {
+		a.pageCal.refresh()
+	}
+	if a.pageQuiz != nil {
+		a.pageQuiz.refresh()
+	}
+	if a.pageStats != nil {
+		a.pageStats.refresh()
+	}
 }
 
 // NewApp собирает главное окно со всеми вкладками.
-// Экраны добавляются по мере готовности; вместо готового экрана пока заглушка.
 func NewApp(dir string, db *model.DB) *App {
 	a := &App{DB: db, Dir: dir, today: model.Today()}
 
 	a.Tabs = nui.NewTabs()
 	a.pageToday = newPageToday(a)
 	a.Tabs.Add("Сегодня", a.pageToday.root)
-	a.Tabs.Add("План", placeholder("Раздел «План» — следующий срез"))
-	a.Tabs.Add("Журнал", placeholder("Раздел «Журнал» — следующий срез"))
-	a.Tabs.Add("Достижения", placeholder("Раздел «Достижения» — следующий срез"))
-	a.Tabs.Add("Календарь", placeholder("Раздел «Календарь» — следующий срез"))
-	a.Tabs.Add("Тесты", placeholder("Раздел «Тесты» — следующий срез"))
-	a.Tabs.Add("Статистика", placeholder("Раздел «Статистика» — следующий срез"))
-	a.Tabs.Add("Настройки", placeholder("Раздел «Настройки» — следующий срез"))
+	a.pagePlan = newPagePlan(a)
+	a.Tabs.Add("План", a.pagePlan.root)
+	a.pageJournal = newPageJournal(a)
+	a.journalTab = a.Tabs.Len() - 1
+	a.Tabs.Add("Журнал", a.pageJournal.root)
+	a.pageAch = newPageAchievements(a)
+	a.Tabs.Add("Достижения", a.pageAch.root)
+	a.pageCal = newPageCalendar(a)
+	a.Tabs.Add("Календарь", a.pageCal.root)
+	a.pageQuiz = newPageQuiz(a)
+	a.Tabs.Add("Тесты", a.pageQuiz.root)
+	a.pageStats = newPageStats(a)
+	a.Tabs.Add("Статистика", a.pageStats.root)
+	a.pageSet = newPageSettings(a)
+	a.Tabs.Add("Настройки", a.pageSet.root)
 
 	a.Win = nui.NewWindow("Трекер обучения", a.Tabs)
 	a.Win.SetSize(980, 680)
