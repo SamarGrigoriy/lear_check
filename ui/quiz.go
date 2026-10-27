@@ -280,6 +280,7 @@ func (p *pageQuiz) openEditor() {
 			p.editQuestion(q, redraw)
 		}
 	})
+	del := nui.NewButton("Удалить", func() {
 		q := sel()
 		if q == nil {
 			return
@@ -296,7 +297,13 @@ func (p *pageQuiz) openEditor() {
 		a.Save()
 		redraw()
 	})
-	list.OnActivate(func(int) { mod.Click() })
+	// двойной клик по строке = «Изменить…» (в gonui у кнопки нет программного нажатия,
+	// поэтому вызываем ту же функцию напрямую)
+	list.OnActivate(func(int) {
+		if q := sel(); q != nil {
+			p.editQuestion(q, redraw)
+		}
+	})
 
 	dlg := nui.NewWindow("Банк вопросов", nui.VBox(
 		nui.Expand(list), nui.HBox(add, mod, del).Spacing(6),
