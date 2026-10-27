@@ -1,0 +1,16 @@
+# Места меньше естественного: минимумы плюс gtk_distribute_natural_allocation.
+window 300x200 padding=12
+vbox
+  hbox spacing=6
+    label ellipsis "Короткая"
+    label ellipsis "Подлиннее подпись тут"
+    label ellipsis "Самая длинная подпись в этой строке"
+  hbox spacing=0
+    label ellipsis "один два три"
+    fixed 40x20
+    label expand ellipsis "четыре пять шесть семь восемь"
+  hbox spacing=6
+    scroll
+      fixed 160x30
+    scroll
+      fixed 220x30

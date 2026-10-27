@@ -1,0 +1,13 @@
+# Сборки
+/bin/
+/spike/*/s1
+/spike/*/out/
+*.test
+*.syso
+/spike/s4/rsrc.o
+/examples/*/rsrc.o
+
+# Редакторы
+.vscode/
+.idea/
+*.swp

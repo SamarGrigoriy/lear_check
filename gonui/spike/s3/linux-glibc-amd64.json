@@ -1,0 +1,32 @@
+{
+	"llvm-target": "x86_64-unknown-linux-gnu",
+	"cpu": "x86-64",
+	"features": "+cmov,+cx8,+fxsr,+mmx,+sse,+sse2,+x87",
+	"build-tags": ["linux", "amd64"],
+	"goos": "linux",
+	"goarch": "amd64",
+	"gc": "conservative",
+	"scheduler": "threads",
+	"linker": "ld.lld",
+	"rtlib": "compiler-rt",
+	"libc": "",
+	"default-stack-size": 65536,
+	"cflags": ["-isystem/usr/include/x86_64-linux-gnu", "-isystem/usr/include"],
+	"ldflags": [
+		"--gc-sections",
+		"--dynamic-linker=/lib64/ld-linux-x86-64.so.2",
+		"-L/usr/lib/x86_64-linux-gnu",
+		"/usr/lib/x86_64-linux-gnu/crt1.o",
+		"/usr/lib/x86_64-linux-gnu/crti.o",
+		"/usr/lib/x86_64-linux-gnu/crtn.o",
+		"-lc"
+	],
+	"extra-files": [
+		"src/runtime/asm_amd64.S",
+		"src/internal/task/task_stack_amd64.S",
+		"src/runtime/runtime_unix.c",
+		"src/runtime/signal.c",
+		"src/internal/futex/futex_linux.c",
+		"src/internal/task/task_threads.c"
+	]
+}

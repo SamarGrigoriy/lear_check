@@ -1,0 +1,17 @@
+# снято с GTK тестом TestLayoutGTK (make golden); руками не править
+window 360x300 min=237x197 nat=237x197
+0 vbox min=217x177 nat=217x177 out=10,10,340,280
+0.0 hbox min=217x40 nat=217x40 out=10,10,340,40
+0.0.0 fixed min=40x20 nat=40x20 out=10,10,40,20
+0.0.1 fixed min=40x20 nat=40x20 out=54,20,40,20
+0.0.2 fixed min=40x20 nat=40x20 out=98,30,40,20
+0.0.3 fixed min=40x20 nat=40x20 out=173,10,40,40
+0.0.4 fixed min=41x21 nat=41x21 out=309,19,41,21
+0.1 grid min=192x52 nat=192x52 out=10,54,340,52
+0.1.0 fixed min=30x30 nat=30x30 out=147,54,30,30
+0.1.1 fixed min=31x31 nat=31x31 out=250,54,31,31
+0.1.2 label min=192x17 nat=192x17 out=84,89,192,17
+0.2 label min=112x17 nat=112x17 out=238,110,112,17
+0.3 vbox min=130x56 nat=130x56 out=120,187,120,46
+0.3.0 fixed min=120x20 nat=120x20 out=120,187,120,20
+0.3.1 fixed min=60x20 nat=60x20 out=180,213,60,20

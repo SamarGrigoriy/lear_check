@@ -1,0 +1,22 @@
+# Frame: ребёнок плюс оформление; длинный заголовок задаёт минимум ширины.
+# Scroll: маленький минимум, естественный размер — как у ребёнка; ребёнок больше
+# видимой области получает свой минимум.
+window 460x330 padding=12
+vbox spacing=6
+  hbox spacing=6
+    frame "Рамка"
+      fixed 80x30
+    frame "Очень длинный заголовок рамки"
+      fixed 40x20
+    frame ""
+      vbox padding=4
+        fixed 30x10
+        fixed 30x10
+  frame expand "Прокрутка"
+    scroll
+      fixed 600x400
+  hbox spacing=6
+    scroll
+      label "немного текста"
+    scroll min=100x-1
+      fixed 50x25

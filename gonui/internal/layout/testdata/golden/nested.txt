@@ -1,0 +1,21 @@
+# снято с GTK тестом TestLayoutGTK (make golden); руками не править
+window 420x320 min=324x160 nat=324x160
+0 hbox min=324x160 nat=324x160 out=0,0,420,320
+0.0 vbox min=120x130 nat=120x130 out=6,6,108,308
+0.0.0 fixed min=50x20 nat=50x20 out=6,6,108,20
+0.0.1 frame min=80x95 nat=80x95 inset=1,18,1,1 floor=80x19 out=6,29,108,95
+0.0.1.0 grid min=48x76 nat=48x76 out=10,50,100,70
+0.0.1.0.0 fixed min=20x20 nat=20x20 out=10,50,20,20
+0.0.1.0.1 fixed min=20x20 nat=20x20 out=32,72,20,20
+0.0.1.0.2 vbox min=30x26 nat=30x26 out=10,94,42,26
+0.0.1.0.2.0 fixed min=30x10 nat=30x10 out=10,94,42,10
+0.0.1.0.2.1 fixed min=30x10 nat=30x10 out=22,110,30,10
+0.1 vbox min=204x160 nat=204x160 out=122,2,296,316
+0.1.0 hbox min=31x50 nat=31x50 out=122,2,296,50
+0.1.0.0 fixed min=10x10 nat=10x10 out=122,22,275,10
+0.1.0.1 vbox min=15x31 nat=15x31 out=403,2,15,50
+0.1.0.1.0 fixed min=15x15 nat=15x15 out=403,2,15,15
+0.1.0.1.1 fixed min=15x15 nat=15x15 out=403,18,15,15
+0.1.1 grid min=200x100 nat=200x100 out=122,58,296,100
+0.1.1.0 fixed min=10x10 nat=10x10 out=122,58,280,84
+0.1.1.1 fixed min=10x10 nat=10x10 out=408,148,10,10

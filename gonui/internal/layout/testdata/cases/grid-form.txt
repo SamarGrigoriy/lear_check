@@ -1,0 +1,12 @@
+# Форма «подпись: поле»: растягивается колонка 1; поле на две колонки, подпись после поля.
+window 420x240 padding=12
+grid expandcol=1
+  label @0,0 "Порт:"
+  combo @1,0 span=2x1 "/dev/ttyUSB0|/dev/ttyACM0"
+  label @0,1 "Скорость:"
+  entry @1,1
+  label @2,1 "бод"
+  label @0,2 "Файл:"
+  label @1,2 span=2x1 ellipsis "/очень/длинный/путь/к/файлу/журнала/логгера.log"
+  check @1,3 span=2x1 "Писать время"
+  button @2,4 "Старт"

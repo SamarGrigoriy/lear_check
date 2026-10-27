@@ -1,0 +1,22 @@
+# Настоящие виджеты nui: размеры листьев — от GTK, раскладка — движок.
+window 480x400 padding=12
+vbox spacing=6
+  label "Строка заголовка"
+  hbox spacing=6
+    button "Кнопка"
+    button expand "Растянутая кнопка"
+    check "Флажок"
+  hbox spacing=6
+    entry
+    combo "Первый|Второй пункт|Третий"
+  slider
+  progress
+  separator
+  hbox spacing=6
+    textview min=-1x80
+    vseparator
+    textview expand
+  hbox spacing=6
+    stretch
+    button "Отмена"
+    button "OK" min=90x-1

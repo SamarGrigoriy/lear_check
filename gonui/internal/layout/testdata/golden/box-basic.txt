@@ -1,0 +1,13 @@
+# снято с GTK тестом TestLayoutGTK (make golden); руками не править
+window 400x300 min=324x175 nat=373x175
+0 vbox min=300x151 nat=349x151 out=12,12,376,276
+0.0 fixed min=100x20 nat=100x20 out=12,12,376,20
+0.1 label min=13x17 nat=349x17 out=12,38,376,142
+0.2 hbox min=142x30 nat=142x30 out=12,186,376,30
+0.2.0 fixed min=50x20 nat=50x20 out=12,186,50,30
+0.2.1 stretch min=0x0 nat=0x0 out=68,186,234,30
+0.2.2 fixed min=80x30 nat=80x30 out=308,186,80,30
+0.3 grid min=300x66 nat=300x66 out=12,222,376,66
+0.3.0 fixed min=60x20 nat=60x20 out=12,222,60,20
+0.3.1 fixed min=100x20 nat=100x20 out=78,222,310,20
+0.3.2 fixed min=300x40 nat=300x40 out=12,248,376,40

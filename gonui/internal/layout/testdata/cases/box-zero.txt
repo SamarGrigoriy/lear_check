@@ -1,0 +1,14 @@
+# Окно ровно по естественному размеру: вставкам Stretch и пустой подписи места не остаётся.
+# GTK всё равно выделяет ячейке 1 px, а следующего соседа сдвигает на настоящий размер (0).
+window 236x96 padding=12
+vbox spacing=6
+  hbox spacing=6
+    fixed 100x20
+    stretch
+    fixed 100x20
+  hbox spacing=0
+    label ""
+    fixed 212x20
+  vbox spacing=0
+    stretch
+    fixed 50x20

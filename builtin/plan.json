@@ -1,0 +1,1015 @@
+{
+ "title": "24 недели: Verilog/FPGA + ML + портфолио",
+ "start_date": "",
+ "directions": [
+  "Verilog/цифра",
+  "ML",
+  "Разбор проекта",
+  "Английский",
+  "Проект/заработок"
+ ],
+ "rhythm": {
+  "total_hours": 10,
+  "hours_per_direction": {
+   "Verilog/цифра": 30,
+   "ML": 25,
+   "Разбор проекта": 20,
+   "Английский": 25,
+   "Проект/заработок": 0
+  }
+ },
+ "stages": [
+  {
+   "name": "Этап 1. Фундамент",
+   "from": 1,
+   "to": 6,
+   "checkpoint": "Контрольная точка 1: UART TX/RX работает в симуляции, и ты объясняешь путь данных от записи до решения",
+   "weeks": [
+    {
+     "number": 1,
+     "goals": [
+      "Закрыть задачи недели по всем четырём направлениям"
+     ],
+     "tasks": [
+      {
+       "description": "Установить Verilator, GTKWave, cocotb; HDLBits: комбинационная логика",
+       "direction": "Verilog/цифра",
+       "week": 1,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Ng «Machine Learning Specialization», курс 1, нед. 1",
+       "direction": "ML",
+       "week": 1,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Прочитать УСТРОЙСТВО.md, нарисовать схему цепочки своими словами",
+       "direction": "Разбор проекта",
+       "week": 1,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Установить Anki; 15 новых слов в день из технических текстов",
+       "direction": "Английский",
+       "week": 1,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 2,
+     "goals": [
+      "Закрыть задачи недели по всем четырём направлениям"
+     ],
+     "tasks": [
+      {
+       "description": "HDLBits: триггеры, счётчики",
+       "direction": "Verilog/цифра",
+       "week": 2,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Курс 1, нед. 2 (линейная регрессия)",
+       "direction": "ML",
+       "week": 2,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Выписать все числовые параметры сети (слои, размеры, окно) и объяснить, откуда каждый",
+       "direction": "Разбор проекта",
+       "week": 2,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Одна неделя: прочитать README проекта на английском",
+       "direction": "Английский",
+       "week": 2,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 3,
+     "goals": [
+      "Закрыть задачи недели по всем четырём направлениям"
+     ],
+     "tasks": [
+      {
+       "description": "HDLBits: сдвиговые регистры, конечные автоматы",
+       "direction": "Verilog/цифра",
+       "week": 3,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Курс 1, нед. 3 (классификация)",
+       "direction": "ML",
+       "week": 3,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Описать на листе, как из осциллограммы получается вход сети",
+       "direction": "Разбор проекта",
+       "week": 3,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Тренировка аудирования: 1 техническое видео в день без субтитров",
+       "direction": "Английский",
+       "week": 3,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 4,
+     "goals": [
+      "Закрыть задачи недели по всем четырём направлениям"
+     ],
+     "tasks": [
+      {
+       "description": "Harris & Harris, главы 2–3 (комбинационная и последовательная логика)",
+       "direction": "Verilog/цифра",
+       "week": 4,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Курс 2, нед. 1 (нейросеть, прямое распространение)",
+       "direction": "ML",
+       "week": 4,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Прочитать golden.py, затем написать свою целочисленную модель одного слоя на numpy",
+       "direction": "Разбор проекта",
+       "week": 4,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Первый урок разговорной речи (italki или аналог)",
+       "direction": "Английский",
+       "week": 4,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 5,
+     "goals": [
+      "Закрыть задачи недели по всем четырём направлениям"
+     ],
+     "tasks": [
+      {
+       "description": "Свой первый модуль: UART-передатчик с тестбенчем",
+       "direction": "Verilog/цифра",
+       "week": 5,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Курс 2, нед. 2 (обучение, backprop)",
+       "direction": "ML",
+       "week": 5,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Сверить свой слой с golden.py, найти расхождения",
+       "direction": "Разбор проекта",
+       "week": 5,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Писать заметки по учёбе на английском (3 строки в день)",
+       "direction": "Английский",
+       "week": 5,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 6,
+     "goals": [
+      "Закрыть задачи недели по всем четырём направлениям"
+     ],
+     "tasks": [
+      {
+       "description": "Свой UART-приёмник + loopback-тест на симуляторе",
+       "direction": "Verilog/цифра",
+       "week": 6,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Курс 2, нед. 3 (советы по обучению)",
+       "direction": "ML",
+       "week": 6,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Проверка: объяснить вслух (на диктофон) весь путь данных от записи до решения",
+       "direction": "Разбор проекта",
+       "week": 6,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разговорный урок; прочитать одну статью по ML на английском",
+       "direction": "Английский",
+       "week": 6,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Этап 2. Цифра глубже и нейросети",
+   "from": 7,
+   "to": 12,
+   "checkpoint": "Контрольная точка 2: свои MAC, FIFO и UART проверены на симуляторе; своя сеть обучена. Застрял — остановись и повтори, а не иди дальше",
+   "weeks": [
+    {
+     "number": 7,
+     "goals": [
+      "Закрыть задачи недели"
+     ],
+     "tasks": [
+      {
+       "description": "Harris & Harris, глава 4 (HDL-описание); блокирующие и неблокирующие присваивания",
+       "direction": "Verilog/цифра",
+       "week": 7,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Karpathy «Neural Networks: Zero to Hero», micrograd",
+       "direction": "ML",
+       "week": 7,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разобрать feedernet.c: вывод сети на C",
+       "direction": "Разбор проекта",
+       "week": 7,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Продолжать ритм Anki и аудирования",
+       "direction": "Английский",
+       "week": 7,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 8,
+     "goals": [
+      "Закрыть задачи недели"
+     ],
+     "tasks": [
+      {
+       "description": "Тайминги: setup/hold, критический путь, что такое Fmax",
+       "direction": "Verilog/цифра",
+       "week": 8,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Karpathy: makemore, часть 1–2",
+       "direction": "ML",
+       "week": 8,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Написать свою версию feedernet.c для одного слоя",
+       "direction": "Разбор проекта",
+       "week": 8,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разговорный урок раз в неделю",
+       "direction": "Английский",
+       "week": 8,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 9,
+     "goals": [
+      "Закрыть задачи недели"
+     ],
+     "tasks": [
+      {
+       "description": "Синхронный FIFO своими руками",
+       "direction": "Verilog/цифра",
+       "week": 9,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "PyTorch: официальный tutorial «Learn the basics»",
+       "direction": "ML",
+       "week": 9,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Сверить со своим кодом, выписать расхождения",
+       "direction": "Разбор проекта",
+       "week": 9,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Заметки по учёбе на английском",
+       "direction": "Английский",
+       "week": 9,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 10,
+     "goals": [
+      "Закрыть задачи недели"
+     ],
+     "tasks": [
+      {
+       "description": "Асинхронный FIFO и CDC (Cummings, читать оригиналы статей по CDC)",
+       "direction": "Verilog/цифра",
+       "week": 10,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Обучить небольшую CNN на MNIST/CIFAR в PyTorch",
+       "direction": "ML",
+       "week": 10,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разобрать, как в проекте строится выборка и целевая метка",
+       "direction": "Разбор проекта",
+       "week": 10,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Аудирование: 1 видео в день",
+       "direction": "Английский",
+       "week": 10,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 11,
+     "goals": [
+      "Закрыть задачи недели"
+     ],
+     "tasks": [
+      {
+       "description": "Ограничения (SDC/CST) и как читать отчёт P&R",
+       "direction": "Verilog/цифра",
+       "week": 11,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Что такое переобучение; как проверять разбиение на train/test на своей выборке",
+       "direction": "ML",
+       "week": 11,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разобрать train.py: что оптимизируется и чем измеряется",
+       "direction": "Разбор проекта",
+       "week": 11,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разговорный урок",
+       "direction": "Английский",
+       "week": 11,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 12,
+     "goals": [
+      "Закрыть задачи недели"
+     ],
+     "tasks": [
+      {
+       "description": "Проект недели: свой маленький умножитель-накопитель (MAC) с тестбенчем",
+       "direction": "Verilog/цифра",
+       "week": 12,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Мини-проект: своя сеть на 2 слоя, обученная на синтетических данных",
+       "direction": "ML",
+       "week": 12,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Объяснить ускоритель: как MAC-блок считает слой",
+       "direction": "Разбор проекта",
+       "week": 12,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Статья по ML на английском",
+       "direction": "Английский",
+       "week": 12,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Этап 3. Нейросети на железе",
+   "from": 13,
+   "to": 18,
+   "checkpoint": "Контрольная точка 3: свой ускоритель работает на плате Tang Primer, и ты объясняешь разницу с версией проекта",
+   "weeks": [
+    {
+     "number": 13,
+     "goals": [
+      "Закрыть содержание недели"
+     ],
+     "tasks": [
+      {
+       "description": "Verilog: повтор FSM/FIFO перед проектированием ускорителя",
+       "direction": "Verilog/цифра",
+       "week": 13,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Квантование: прочитать Jacob et al. 2018 (Quantization and Training of NNs for Integer-Arithmetic-Only Inference); понять, почему в проекте INT8 и как считается масштаб",
+       "direction": "ML",
+       "week": 13,
+       "status": "не начата",
+       "planned_hours": 35,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разбор: как в acc/ заданы масштабы весов",
+       "direction": "Разбор проекта",
+       "week": 13,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Английский: читать статьи по квантованию в оригинале",
+       "direction": "Английский",
+       "week": 13,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 14,
+     "goals": [
+      "Закрыть содержание недели"
+     ],
+     "tasks": [
+      {
+       "description": "Verilog: работа над ускорителем/тестами",
+       "direction": "Verilog/цифра",
+       "week": 14,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Своё PTQ на PyTorch для своей маленькой сети; сравнить точность FP32 и INT8",
+       "direction": "ML",
+       "week": 14,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разбор проекта по теме недели",
+       "direction": "Разбор проекта",
+       "week": 14,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Anki, аудирование, разговорный урок",
+       "direction": "Английский",
+       "week": 14,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 15,
+     "goals": [
+      "Закрыть содержание недели"
+     ],
+     "tasks": [
+      {
+       "description": "Свой ускоритель одного полносвязного слоя на SystemVerilog; сверка с моделью на numpy «бит в бит»",
+       "direction": "Verilog/цифра",
+       "week": 15,
+       "status": "не начата",
+       "planned_hours": 40,
+       "actual_hours": 0
+      },
+      {
+       "description": "numpy-модель слоя: фиксация битовых форматов",
+       "direction": "ML",
+       "week": 15,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      },
+      {
+       "description": "Сверка протоколов обмена со своим RTL",
+       "direction": "Разбор проекта",
+       "week": 15,
+       "status": "не начата",
+       "planned_hours": 10,
+       "actual_hours": 0
+      },
+      {
+       "description": "Anki, аудирование",
+       "direction": "Английский",
+       "week": 15,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 16,
+     "goals": [
+      "Закрыть содержание недели"
+     ],
+     "tasks": [
+      {
+       "description": "Verilog: работа над ускорителем/тестами",
+       "direction": "Verilog/цифра",
+       "week": 16,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разбор acc/ проекта: сравнить со своим ускорителем, объяснить, чем отличается дизайн (параллелизм, память весов)",
+       "direction": "ML",
+       "week": 16,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разбор проекта по теме недели",
+       "direction": "Разбор проекта",
+       "week": 16,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Anki, аудирование, разговорный урок",
+       "direction": "Английский",
+       "week": 16,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 17,
+     "goals": [
+      "Закрыть содержание недели"
+     ],
+     "tasks": [
+      {
+       "description": "Verilog: работа над ускорителем/тестами",
+       "direction": "Verilog/цифра",
+       "week": 17,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Обзор hls4ml и FINN: прочитать документацию, запустить один пример; цель — понять подходы, не освоить",
+       "direction": "ML",
+       "week": 17,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      },
+      {
+       "description": "Разбор проекта по теме недели",
+       "direction": "Разбор проекта",
+       "week": 17,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Anki, аудирование, разговорный урок",
+       "direction": "Английский",
+       "week": 17,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 18,
+     "goals": [
+      "Закрыть содержание недели"
+     ],
+     "tasks": [
+      {
+       "description": "Прошить свой ускоритель на Tang Primer, прогнать тестовые данные; записать видео-демо",
+       "direction": "Verilog/цифра",
+       "week": 18,
+       "status": "не начата",
+       "planned_hours": 40,
+       "actual_hours": 0
+      },
+      {
+       "description": "Подготовка тестовых векторов для платы",
+       "direction": "ML",
+       "week": 18,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "Сравнение своей реализации с агентской: зафиксировать отличия",
+       "direction": "Разбор проекта",
+       "week": 18,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Описание демо на английском (README, видео)",
+       "direction": "Английский",
+       "week": 18,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Этап 4. Заработок и портфолио",
+   "from": 19,
+   "to": 24,
+   "checkpoint": "Контрольная точка 4: готовый проект на KiCad+МК, публичные репозитории, обновлённое резюме и первые отклики",
+   "weeks": [
+    {
+     "number": 19,
+     "goals": [
+      "Двигать проект и портфолио"
+     ],
+     "tasks": [
+      {
+       "description": "Выбрать один маленький проект на KiCad + МК (датчик/логгер/плата-адаптер); схема, трассировка",
+       "direction": "Проект/заработок",
+       "week": 19,
+       "status": "не начата",
+       "planned_hours": 50,
+       "actual_hours": 0
+      },
+      {
+       "description": "Verilog: поддержка своего железа",
+       "direction": "Verilog/цифра",
+       "week": 19,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "ML: обработка данных проекта",
+       "direction": "ML",
+       "week": 19,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Английский: документация проекта",
+       "direction": "Английский",
+       "week": 19,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 20,
+     "goals": [
+      "Двигать проект и портфолио"
+     ],
+     "tasks": [
+      {
+       "description": "Заказать плату, паять, писать прошивку; параллельно — профиль на фриланс-площадке",
+       "direction": "Проект/заработок",
+       "week": 20,
+       "status": "не начата",
+       "planned_hours": 50,
+       "actual_hours": 0
+      },
+      {
+       "description": "Verilog: поддержка своего железа",
+       "direction": "Verilog/цифра",
+       "week": 20,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "ML: обработка данных проекта",
+       "direction": "ML",
+       "week": 20,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Английский: документация проекта",
+       "direction": "Английский",
+       "week": 20,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 21,
+     "goals": [
+      "Двигать проект и портфолио"
+     ],
+     "tasks": [
+      {
+       "description": "Закончить проект: фото, видео, чистый README на английском",
+       "direction": "Проект/заработок",
+       "week": 21,
+       "status": "не начата",
+       "planned_hours": 50,
+       "actual_hours": 0
+      },
+      {
+       "description": "Verilog: поддержка своего железа",
+       "direction": "Verilog/цифра",
+       "week": 21,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "ML: обработка данных проекта",
+       "direction": "ML",
+       "week": 21,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Английский: документация проекта",
+       "direction": "Английский",
+       "week": 21,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 22,
+     "goals": [
+      "Двигать проект и портфолио"
+     ],
+     "tasks": [
+      {
+       "description": "Оформить публичный репозиторий проекта 3 (свой UART/FIFO/MAC/ускоритель) с тестбенчами и документацией; без паролей и чужих данных",
+       "direction": "Проект/заработок",
+       "week": 22,
+       "status": "не начата",
+       "planned_hours": 40,
+       "actual_hours": 0
+      },
+      {
+       "description": "Verilog: чистка RTL и тестбенчей",
+       "direction": "Verilog/цифра",
+       "week": 22,
+       "status": "не начата",
+       "planned_hours": 20,
+       "actual_hours": 0
+      },
+      {
+       "description": "ML: оформить метрики в README",
+       "direction": "ML",
+       "week": 22,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Английский: вычитка README",
+       "direction": "Английский",
+       "week": 22,
+       "status": "не начата",
+       "planned_hours": 25,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 23,
+     "goals": [
+      "Двигать проект и портфолио"
+     ],
+     "tasks": [
+      {
+       "description": "Переписать резюме под узкую формулировку «Embedded + FPGA verification/prototyping + ML inference»; откликнуться на 5–10 заказов",
+       "direction": "Проект/заработок",
+       "week": 23,
+       "status": "не начата",
+       "planned_hours": 50,
+       "actual_hours": 0
+      },
+      {
+       "description": "Отвечать на отклики, мини-задания",
+       "direction": "Verilog/цифра",
+       "week": 23,
+       "status": "не начата",
+       "planned_hours": 10,
+       "actual_hours": 0
+      },
+      {
+       "description": "ML: поддерживать портфолио",
+       "direction": "ML",
+       "week": 23,
+       "status": "не начата",
+       "planned_hours": 10,
+       "actual_hours": 0
+      },
+      {
+       "description": "Английский: собеседования, переписка",
+       "direction": "Английский",
+       "week": 23,
+       "status": "не начата",
+       "planned_hours": 30,
+       "actual_hours": 0
+      }
+     ]
+    },
+    {
+     "number": 24,
+     "goals": [
+      "Двигать проект и портфолио"
+     ],
+     "tasks": [
+      {
+       "description": "Разбор итогов: что получилось, что нет; план на следующие 6 месяцев",
+       "direction": "Проект/заработок",
+       "week": 24,
+       "status": "не начата",
+       "planned_hours": 60,
+       "actual_hours": 0
+      },
+      {
+       "description": "Верификация выводов по всем направлениям",
+       "direction": "Verilog/цифра",
+       "week": 24,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      },
+      {
+       "description": "Финальные тесты знаний",
+       "direction": "ML",
+       "week": 24,
+       "status": "не начата",
+       "planned_hours": 10,
+       "actual_hours": 0
+      },
+      {
+       "description": "Английский: итоги на английском",
+       "direction": "Английский",
+       "week": 24,
+       "status": "не начата",
+       "planned_hours": 15,
+       "actual_hours": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

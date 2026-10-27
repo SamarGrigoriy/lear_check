@@ -1,0 +1,23 @@
+# Свободное место — поровну растягиваемым, остаток по пикселю первым; скрытые не занимают места.
+window 433x260 padding=7
+vbox spacing=5
+  hbox spacing=4
+    fixed expand 30x20
+    fixed 40x20
+    fixed expand 30x20
+    fixed expand 30x20
+  hbox spacing=10 padding=3
+    fixed 30x20
+    fixed hidden 300x20
+    fixed 30x20
+    stretch
+    stretch
+    fixed 30x20
+  vbox expand spacing=0
+    fixed expand 20x10
+    fixed 20x10
+    fixed expand 20x11
+  hbox
+    stretch
+    fixed 50x20
+    stretch
