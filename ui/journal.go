@@ -464,6 +464,37 @@ func (p *pageJournal) refreshAll() {
 
 // helpers -------------------------------------------------------------
 
+// editJournalEntry — общий редактор записей для других экранов (календарь).
+// existing == nil или запись без ID — создаётся новая.
+func (a *App) editJournalEntry(existing *model.JournalEntry) {
+	if a.pageJournal == nil {
+		return
+	}
+	if existing != nil && existing.ID == 0 {
+		existing = &model.JournalEntry{Date: existing.Date, Type: existing.Type, Week: existing.Week}
+	}
+	a.pageJournal.editEntry(existing)
+}
+
+// showJournalWeek — открыть вкладку «Журнал» с фильтром по неделе wn
+// (переход из экрана «План»).
+func (a *App) showJournalWeek(wn int) {
+	p := a.pageJournal
+	if p == nil {
+		return
+	}
+	a.Tabs.SetCurrent(a.journalTab)
+	p.fWeek.SetSelected(0) // сбросить прежний фильтр, чтобы SetText нашёл элемент
+	p.fWeek.SetText(strconv.Itoa(wn))
+	p.refreshFeed()
+	for i, e := range p.entries {
+		if e.Week == wn {
+			p.list.Select(i) // OnSelect покажет запись в просмотрщике
+			break
+		}
+	}
+}
+
 func firstLine(s string) string {
 	if i := strings.IndexByte(s, '\n'); i >= 0 {
 		return s[:i]
